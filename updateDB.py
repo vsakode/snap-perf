@@ -206,7 +206,7 @@ def main():
         
         con = None
         try:
-            con = mdb.connect('bassql1', 'estsnapmirror', 'estsnapmirror#', 'estsnapmirror')
+            con = mdb.connect('dbhost', 'dbuser', 'dbpasswd', 'dbname')
             cur = con.cursor()
             #print sitename
             #print sitename
