@@ -1,2 +1,3 @@
 These are the scripts to evaluate the snapmirror filer tranfer performance in terms of tranfer speed 
 and the amount of data tranfered per request.
+Written in Python and used Mysql as database backend
